@@ -3,7 +3,7 @@ _"He'd wanted to get stronger every time he'd experienced a crisis. He'd wanted 
 
 _- Solo Leveling. Chugong. 2016, pp.176._
 
-!(/assets/img1.jpg)
+![The agent in the world](/assets/img1.jpg)
 
 ## Description
 *Every day errands, tasks or reminders become side quests to develop and evolve a virtual agent. When the user complete one of these side quests the agent grows bigger, faster and stronger capable to fullfil more complex tasks. Every time the agent *levels-up* the user can unlock one skill [every day skills, like cooking an omelette or wash clothes] that helps the agent to evolve and be more productive with its "life".*
