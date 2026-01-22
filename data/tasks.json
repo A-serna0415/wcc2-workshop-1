@@ -1,0 +1,17 @@
+[
+  { "id": 1, "name": "Do the laundry, you filthy animal", "rewardXP": 6,  "difficulty": 1 },
+  { "id": 2, "name": "Buy some groceries, the fridge is empty!", "rewardXP": 8,  "difficulty": 2 },
+  { "id": 3, "name": "Wake up early today", "rewardXP": 25, "difficulty": 3 },
+  { "id": 4, "name": "Find a job, don't be a slagh", "rewardXP": 20, "difficulty": 3 },
+  { "id": 5, "name": "Call your Mom, she loves you", "rewardXP": 4, "difficulty": 1 },
+  { "id": 6, "name": "Keep your job, don't keep being a slagh", "rewardXP": 20, "difficulty": 3 },
+  { "id": 7, "name": "Start the gym for 1000 time", "rewardXP": 22, "difficulty": 3 },
+  { "id": 8, "name": "Wake up on time for your 9AM Lecture", "rewardXP": 25, "difficulty": 3 },
+  { "id": 9, "name": "Clock out on time for your job", "rewardXP": 21, "difficulty": 3 },
+  { "id": 10, "name": "Finish your double shift without fainting", "rewardXP": 30, "difficulty": 3 },
+  { "id": 11, "name": "Finish your WWC1 assingment without fainting", "rewardXP": 40, "difficulty": 3 },
+  { "id": 12, "name": "Tidy your room today", "rewardXP": 10, "difficulty": 1 },
+  { "id": 13, "name": "Go out for a walk", "rewardXP": 15, "difficulty": 1 },
+  { "id": 14, "name": "Send a DM to your crush", "rewardXP": 38, "difficulty": 3 },
+  { "id": 15, "name": "Start reading the book you always wanted to read", "rewardXP": 22, "difficulty": 2 }
+]

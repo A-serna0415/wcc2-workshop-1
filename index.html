@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.11.10/lib/p5.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8" />
+</head>
+
+<body>
+  <main id="app">
+    <div id="sketch-container"></div>
+
+    <div id="gui-container">
+      <section id="todo-panel" class="panel">
+        <div class="panel-header">
+          <h2>To-Do List RPG</h2>
+          <div id="sidequests-count">0 every-day quests</div>
+        </div>
+        <div id="todo-list"></div>
+        <div class="panel-footer">
+          <button id="spawn-goal-btn">Next Quest</button>
+        </div>
+      </section>
+
+      <section id="stats-panel" class="panel">
+        <h3>Your Agent:</h3>
+
+        <div class="stat-row"><span>Lv.</span><span id="ui-level">1</span></div>
+        <div class="stat-row"><span>XP</span><span id="ui-xp">0</span></div>
+        <div class="stat-row"><span>Next</span><span id="ui-next">10</span></div>
+
+        <div class="divider"></div>
+        <strong class="subtitle">Stats:</strong>
+
+        <div class="stat-row">
+          <span>Agility</span>
+          <span id="attr-agility">1.00</span>
+        </div>
+
+        <div class="stat-row">
+          <span>Navigation</span>
+          <span id="attr-navigation">1.00</span>
+        </div>
+
+        <div class="stat-row">
+          <span>Focus</span>
+          <span id="attr-focus">1.00</span>
+        </div>
+      </section>
+
+      <section id="skills-panel" class="panel">
+        <h3>Skills Network:</h3>
+        <canvas id="skills-canvas" width="400" height="500"></canvas>
+      </section>
+    </div>
+  </main>
+
+  <div id="skill-modal" class="modal hidden">
+    <div class="modal-card">
+      <h2>Your Agent has Leveled Up!</h2>
+      <p class="modal-sub">Your Agent can learn a new skill.</p>
+
+      <div class="skill-picker">
+        <canvas id="skill-picker-canvas" width="480" height="260"></canvas>
+        <div id="skill-tooltip" class="skill-tooltip hidden"></div>
+      </div>
+
+      <button id="skill-skip-btn" class="secondary-btn">Close</button>
+    </div>
+  </div>
+
+  <script src="agent.js"></script>
+  <script src="world.js"></script>
+  <script src="taskManager.js"></script>
+  <script src="skillTree.js"></script>
+  <script src="ui.js"></script>
+  <script src="sketch.js"></script>
+</body>
+
+</html>

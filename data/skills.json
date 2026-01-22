@@ -1,0 +1,22 @@
+{
+  "nodes": [
+    { "id": "cooking",        "name": "Cooking",                "req": [],             "attr": "focus",      "amount": 0.20 },
+
+    { "id": "breakfast",      "name": "Breakfast Prep",         "req": ["cooking"],    "attr": "focus",      "amount": 0.20 },
+    { "id": "omelette",       "name": "Omelette",               "req": ["breakfast"],  "attr": "agility",    "amount": 0.20 },
+    { "id": "cereal",         "name": "Cereal Prep",            "req": ["breakfast"],  "attr": "focus",      "amount": 0.15 },
+
+    { "id": "lunch",          "name": "Lunch Prep",             "req": ["cooking"],    "attr": "navigation", "amount": 0.20 },
+    { "id": "pasta",          "name": "Pasta Prep",             "req": ["lunch"],      "attr": "agility",    "amount": 0.20 },
+    { "id": "soup",           "name": "Soup Prep",              "req": ["lunch"],      "attr": "focus",      "amount": 0.20 },
+    { "id": "chicken_rice",   "name": "Chicken & Rice Prep",    "req": ["lunch"],      "attr": "navigation", "amount": 0.25 },
+
+    { "id": "planning",       "name": "Planning",               "req": [],             "attr": "navigation", "amount": 0.20 },
+    { "id": "budgeting",      "name": "Planning Expenses",      "req": ["planning"],   "attr": "focus",      "amount": 0.20 },
+    { "id": "saving",         "name": "Saving",                 "req": ["budgeting"],  "attr": "navigation", "amount": 0.25 },
+
+    { "id": "exercise",       "name": "Physical Health",        "req": [],             "attr": "agility",    "amount": 0.20 },
+    { "id": "workout",        "name": "Workout Routine",        "req": ["exercise"],   "attr": "agility",    "amount": 0.25 },
+    { "id": "running",        "name": "Stamina Growth",         "req": ["workout"],    "attr": "focus",      "amount": 0.20 }
+  ]
+}
