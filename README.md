@@ -23,7 +23,7 @@
    - [Navigation] = obstacles avoiding capacity.
    - [Focus] =  detection of the goal.
 3. The task manager defines all the side quests *the agent* will attempt to complete.
-4. Each side quests has a difficulty level: [D1] three obstacles, [D2] six obstacles, [D3] eight obstacles in the world.
+4. Each side quests has a difficulty level: **[D1]** three obstacles, **[D2]** six obstacles, **[D3]** eight obstacles in the world.
 5. *The agent* will earn a specific amount of experience points [XP] for each side quest completed.
 6. Every time *the agent* levels-up it will gain a new *every day skill*.
 7. The skills represent an every day hability neccesary for being more productive: cooking, planning, budgeting, work out, etc.
@@ -31,7 +31,11 @@
 9. The user cannot access *the agent's* skill network unless it levels-up.
 10. More than a player, the user acts as a taskmaster, choosing which side quest the agent should complete, monitoring its performance, and guiding its growth and improvement.
 
-![Agent stats](/assets/img3.png)   ![Agent skills selector](/assets/img4.png)
+![Agent stats](/assets/img3.png)
+
+<img src="/assets/img4.png" width="200" height="100">
+
+![Agent skills selector](/assets/img4.png)
 
 ## [Technology Used]
 *How did you make it, what libraries etc used*
