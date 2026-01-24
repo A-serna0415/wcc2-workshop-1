@@ -31,9 +31,9 @@
 9. The user cannot access *the agent's* skill network unless it levels-up.
 10. More than a player, the user acts as a taskmaster, choosing which side quest the agent should complete, monitoring its performance, and guiding its growth and improvement.
 
-<img style="float: left;" src="/assets/img3.png">
+<img style="float: center;" src="/assets/img3.png">
 
-<img style="float: right;" src="/assets/img4.png" width="450" height="330">
+<img style="float: center;" src="/assets/img4.png" width="450" height="330">
 
 ## [Technology Used]
 *How did you make it, what libraries etc used*
