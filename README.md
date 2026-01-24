@@ -33,9 +33,7 @@
 
 ![Agent stats](/assets/img3.png)
 
-<img src="/assets/img4.png" width="200" height="100">
-
-![Agent skills selector](/assets/img4.png)
+<img src="/assets/img4.png" width="450" height="300">
 
 ## [Technology Used]
 *How did you make it, what libraries etc used*
