@@ -1,7 +1,7 @@
 # [To_Do_List_RPG]
-*"He'd wanted to get stronger every time he'd experienced a crisis. He'd wanted to escape the unstable lifestyle that made him feel like he was constantly hanging on the edge of a cliff (...) **The System will use me, and I will use the System.**"*
+*_"He'd wanted to get stronger every time he'd experienced a crisis. He'd wanted to escape the unstable lifestyle that made him feel like he was constantly hanging on the edge of a cliff (...) **The System will use me, and I will use the System.**"_*
 
-*[Solo Leveling. Chugong. 2016, pp.176.]*
+*_[Solo Leveling. Chugong. 2016, pp.176.]_*
 
 ![The agent in the world](/assets/img1.png)
 
