@@ -33,7 +33,7 @@
 
 ![Agent stats](/assets/img3.png)
 
-<img src="/assets/img4.png" width="450" height="300">
+<img style="float: right;" src="/assets/img4.png" width="450" height="330">
 
 ## [Technology Used]
 *How did you make it, what libraries etc used*
