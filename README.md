@@ -16,6 +16,7 @@
 *In a more concrete technical terms, the project is built around three core systems that I designed to work together and fully support this interactive experience: **the world**, **the task manager** and **the agent's status**.*
 
 ![System layout sketch](/assets/img2.png)
+![System GUI](/assets/img5.png)
 
 1. The user does not control *the agent's* actions in the world.
 2. *The agent* has three base stats that can be improved as it levels-up:
@@ -24,22 +25,23 @@
    - [Focus] =  detection of the goal.
 3. The task manager defines all the side quests *the agent* will attempt to complete.
 4. Each side quests has a difficulty level: **[D1]** three obstacles, **[D2]** six obstacles, **[D3]** eight obstacles in the world.
-5. *The agent* will earn a specific amount of experience points [XP] for each side quest completed.
+5. *The agent* will earn a specific amount of experience points **[XP]** for each side quest completed.
 6. Every time *the agent* levels-up it will gain a new *every day skill*.
 7. The skills represent an every day hability neccesary for being more productive: cooking, planning, budgeting, work out, etc.
 8. When the user unlocks an skill, one of *the agent's* main stats may rose, making it more efficient at completing the following tasks. [e.g. cooking + 0.20 in Focus stat].
 9. The user cannot access *the agent's* skill network unless it levels-up.
 10. More than a player, the user acts as a taskmaster, choosing which side quest the agent should complete, monitoring its performance, and guiding its growth and improvement.
 
-<img style="float: center;" src="/assets/img3.png">
+<img style="float: center;" src="/assets/img3.png" width="200" height="600">
 
-<img style="float: center;" src="/assets/img4.png" width="450" height="330">
+<img style="float: center;" src="/assets/img4.png" width="450" height="350">
 
-## [Technology Used]
-*How did you make it, what libraries etc used*
+## [Requirements]
 
-## Requirements
-*Tech stack, browser, OS, libs.*
+
+## [Technology]
+*Project made with p5.js, DOM manipulation with HTML and CSS, and data handling through JSON files.
+*No other library was used.
 
 ## Screenshots / Media
 *Include in-action visuals.*
