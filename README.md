@@ -60,6 +60,8 @@
 ![Show memory 2](assets/img10.jpg)
 ![Show memory 3](assets/img11.jpg)
 ![Show memory 4](assets/img12.jpg)
+
+## [Video]
 https://github.com/user-attachments/assets/b69ccc03-89d8-495f-aa9f-a38025d5c274
 
 ## [Technology]
