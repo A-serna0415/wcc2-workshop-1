@@ -60,10 +60,11 @@
 ![Show memory 2](assets/img10.jpg)
 ![Show memory 3](assets/img11.jpg)
 ![Show memory 4](assets/img12.jpg)
+https://github.com/user-attachments/assets/b69ccc03-89d8-495f-aa9f-a38025d5c274
 
 ## [Technology]
 *Project made with p5.js, DOM manipulation with HTML and CSS, and data handling through JSON files.*
-*No other libraries was used.*
+*No other libraries were used.*
 
 ## [Acknowledgements]
 - Chou, Yu-kai. Actionable Gamification: Beyond Points, Badges, and Leaderboards. North Charleston, SC: CreateSpace Independent Publishing Platform, 2015.
