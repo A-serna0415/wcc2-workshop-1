@@ -1,4 +1,4 @@
-# [To_Do_List_RPG]
+# :memo: [To_Do_List_RPG]
 *_"He'd wanted to get stronger every time he'd experienced a crisis. He'd wanted to escape the unstable lifestyle that made him feel like he was constantly hanging on the edge of a cliff [...] **The System will use me, and I will use the System.**"_* _- [Solo Leveling. Chugong. 2016, pp.176.]_
 
 ![The agent in the world](/assets/img1.png)
@@ -11,6 +11,9 @@
 
 *With this idea clear in my mind, I decided to draw on Daniel Shiffman’s explanation of genetic algorithms in *The Nature of Code* and treat my virtual agent as a kind of “living organism” simulation: it solves small problems and evolves based on the user’s interaction. In this context, completed tasks work like a fitness signal, repetition produces measurable progress, and the user’s decisions function like selection, shaping which skills and attributes get reinforced over time [Shiffman, 2012]. This is where the gamification layer becomes essential: by translating routines into visible feedback loops (XP, levels, unlocks), the system makes progress feel personal.*
 
+## [How to Run]
+1. Download the repo and save it on your machine.
+2. Run it using any IDE of your choice [ideally *VS Code*, thanks to it's feature of *Live Server* is possible to run JavaScript code on browser easily].
 
 ## [General Rules]
 *In a more concrete technical terms, the project is built around three core systems that I designed to work together and fully support this interactive experience: **the world**, **the task manager** and **the agent's status**.*
@@ -36,21 +39,43 @@
 
 <img style="float: center;" src="/assets/img4.png" width="450" height="350">
 
-## [Requirements]
+## [JSON files specifications]
+*The side quest and skill data are stored in two JSON files: tasks.json and skills.json, respectively. Anyone familiar with this file format can experiment with them to suit their needs. You can add or remove side quests, adjust their difficulty, and change how much experience they grant. Likewise, the skill network can be expanded by adding new skills that fit the preferences and goals of whoever is runing this project.*
 
+![task.json screenshot](assets/img7.png)
+![skills.json screenshot](assets/img8.png)
+
+## [Requirements]
+- The project itself can easily run on any machine that has the necessary files downloaded.
+- It can be executed on any IDE that supports JavaScript technology [ideally *VS Code*].
+- Internet Browser.
+
+## [Setup]
+*The exhibition of this first edition of the project only required a laptop connected to a projector, which showcased how the entire experience worked.*
+
+## [Media]
+*The project was presented during a pin-up session at the Church at Goldsmiths, University of London:*
+
+![Show memory 1](assets/img9.jpg)
+![Show memory 2](assets/img10.jpg)
+![Show memory 3](assets/img11.jpg)
+![Show memory 4](assets/img12.jpg)
+<video controls src="assets/video.mp4" title="Video show"></video>
 
 ## [Technology]
-*Project made with p5.js, DOM manipulation with HTML and CSS, and data handling through JSON files.
-*No other library was used.
+*Project made with p5.js, DOM manipulation with HTML and CSS, and data handling through JSON files.*
+*No other library was used.*
 
-## Screenshots / Media
-*Include in-action visuals.*
+## [Acknowledgements]
+- Chou, Yu-kai. Actionable Gamification: Beyond Points, Badges, and Leaderboards. North Charleston, SC: CreateSpace Independent Publishing Platform, 2015.
+- Chugong. Solo Leveling. Vol. 1. Papyrus, 2016.
+- Shiffman, Daniel. “Chapter 9: Evolutionary Computing.” The Nature of Code. 2012. Accessed January 12, 2026. https://natureofcode.com/genetic-algorithms/.
+- Shiffman, Daniel. “Coding Challenge #29: Smart Rockets in p5.js.” YouTube video. August 2, 2016. https://www.youtube.com/watch?v=bGz7mv2vD6g.
+- Shiffman, Daniel. “Example 9.3: Smarter Rockets.” p5.js Web Editor. Accessed January 12, 2026. https://editor.p5js.org/natureofcode/sketches/565K_KXSA.
 
-## Credits / Acknowledgements
-*Who made it, references.*
+## [License]
+*No specific license is required.*
 
-## License
-*What license is it made under, if any?*
-
-## Contact / Links
-*GitHub repo link, website, demo URL.*
+## [Contact]
+- [GitHub Repo]: https://github.com/A-serna0415/wcc2-workshop-1.git
+- [Demo link]: https://youtu.be/KuRvhi2i-JY
